@@ -3,8 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main-header{
-    text-align: center;
-    font-family: monospace;
-    text-transform: uppercase;
+
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.product-plans{
+    padding: 75px 0;
+}
+.products-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.products-heading{
+    width: 523px;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: -1.88px;
+}
+.period-buttons{
+    padding: 5px 6px;
+    background: #F7F7FB;
+    border-radius: 10px;
+}
+.period-btn{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    padding: 17px 56px;
+}
+.period-btn.active{
+    background: #5454D4;
+    color: #fff;
+}
+.yearly.active{
+    border-radius: 10px 0 0 10px;
+}
+.monthly.active{
+    border-radius: 0 10px 10px 0;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 330px;
+    padding: 30px 22px;
+    background: #F8F8F8;
+}
+.card-title{
+    line-height: -0.56px;
+    font-size: 18px;
+    color: #696871;
 }
